@@ -18,7 +18,7 @@ Hiring new employees are extremely complex task that requires capital, time and 
 In this project, I have developed a Machine Learning Model to predict the Employee Attrition by implementing various Machine Learning Algorithms.
 Conducted exploratory data analysis using various data visualization techniques.
 
-Achieved good accuracy on the 'IBM HR Analytics Employee Attrition & Performance' dataset from Kaggle,using Logistic Regression.
+Achieved good recall on the 'IBM HR Analytics Employee Attrition & Performance' dataset from Kaggle,using Logistic Regression.
 
 Dataset Link - [IBM HR Analytics Employee Attrition & Performance](https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 
