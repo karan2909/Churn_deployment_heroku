@@ -1,10 +1,6 @@
 # Employee Attrition
-[
-![Attrition-01](https://user-images.githubusercontent.com/53073185/87855289-e83cc300-c934-11ea-991f-59b7eb395eda.png)
-](url)
 
-image source : vantagecircle
-
+## Business Case : 
 Attrition is the silent killer that can switly disable even the most successful and stable of the organizations in a shockingly spare amount of time.
 Hiring new employees are extremely complex task that requires capital, time and skills.Also new employee costs a lot more than that Persons salary.
 
@@ -13,15 +9,22 @@ Hiring new employees are extremely complex task that requires capital, time and 
 - Integrating a new employee into the organization can also require time and expenditures.
 - It can take up to six months or more for a company to break even on its investment in a new hire.
 
-[The Cost of Hiring a New Employee - Investopedia](https://www.investopedia.com/financial-edge/0711/the-cost-of-hiring-a-new-employee.aspx)
+## Dataset
+Dataset Link - [IBM HR Analytics Employee Attrition & Performance](https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 
+
+## Algorithm 
 In this project, I have developed a Machine Learning Model to predict the Employee Attrition by implementing various Machine Learning Algorithms.
 Conducted exploratory data analysis using various data visualization techniques.
 
-Achieved good recall on the 'IBM HR Analytics Employee Attrition & Performance' dataset from Kaggle,using Logistic Regression.
+Results from different algorithims : 
+![Example Image](example.png)
 
-Dataset Link - [IBM HR Analytics Employee Attrition & Performance](https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset)
+Since accuracy won't be a good measure, looked at alternate metrics like ROC-AUC and recall to determine the best algorithm.
 
-Made a WEB API using [Flask](https://flask.palletsprojects.com/en/1.1.x/) framework and deployed it on [Heroku](https://www.heroku.com/) cloud platform. Below is the link to access the API.
+Achieved best results with randomforest.
+Additionaly feature importance is also taken out from random forest model.
 
-Web API - [Employee Attrition](https://employee-attrition-pred.herokuapp.com/)
+## Deployment
+
+Made a WEB API using [Flask](https://flask.palletsprojects.com/en/) framework and deployed it on [Heroku](https://www.heroku.com/) cloud platform.
