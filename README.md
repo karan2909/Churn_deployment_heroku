@@ -17,8 +17,19 @@ Dataset Link - [IBM HR Analytics Employee Attrition & Performance](https://www.k
 In this project, I have developed a Machine Learning Model to predict the Employee Attrition by implementing various Machine Learning Algorithms.
 Conducted exploratory data analysis using various data visualization techniques.
 
+Algorithims tried:
+1) Logistic Regression
+2) SVM
+3) Random Forest
+4) Gausian NB
+5) KNN
+6) Decision Tree Classifier
+
+## Results:
+
 Results from different algorithims : 
-![Example Image](example.png)
+![Example Image](https://github.com/karan2909/Churn_deployment_heroku/blob/main/Results.png)
+
 
 Since accuracy won't be a good measure, looked at alternate metrics like ROC-AUC and recall to determine the best algorithm.
 
